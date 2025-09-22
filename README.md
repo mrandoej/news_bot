@@ -43,7 +43,7 @@
 
 ```bash
 git clone
-cd regional-news-bot
+cd news-bot
 ```
 
 ### 2. Создать виртуальное окружение
