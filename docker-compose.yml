@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  saratov-news-bot:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    env_file:
+      - .env
+    environment:
+      - DATABASE_PATH=/app/data/news.db
+      - LOG_FILE=/app/logs/bot.log
+      - LOG_LEVEL=INFO
+    healthcheck:
+      test: ["CMD", "python", "app.py", "test"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

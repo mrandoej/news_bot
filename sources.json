@@ -1,0 +1,104 @@
+{
+  "sources": [
+    {
+      "id": "lenta_ru",
+      "name": "Лента.ру (Саратов)",
+      "url": "https://lenta.ru",
+      "city": "Саратов",
+      "rss": "https://lenta.ru/rss/news",
+      "enabled": true,
+      "priority": 1,
+      "timeout": 30
+    },
+    {
+      "id": "ria_novosti",
+      "name": "РИА Новости (Регионы)",
+      "url": "https://ria.ru",
+      "city": "Саратов",
+      "rss": "https://ria.ru/export/rss2/archive/index.xml",
+      "enabled": true,
+      "priority": 1,
+      "timeout": 30
+    },
+    {
+      "id": "interfax",
+      "name": "Интерфакс (Россия)",
+      "url": "https://www.interfax.ru",
+      "city": "Саратов",
+      "rss": "https://www.interfax.ru/rss.asp",
+      "enabled": true,
+      "priority": 1,
+      "timeout": 30
+    },
+    {
+      "id": "tass",
+      "name": "ТАСС (Регионы)",
+      "url": "https://tass.ru",
+      "city": "Саратов",
+      "rss": "https://tass.ru/rss/v2.xml",
+      "enabled": true,
+      "priority": 1,
+      "timeout": 30
+    },
+    {
+      "id": "vzsar",
+      "name": "Взгляд Саратов",
+      "url": "https://vzsar.ru",
+      "city": "Саратов",
+      "selector": "article, .news-item, .post, h2, h3",
+      "enabled": true,
+      "priority": 2,
+      "timeout": 30
+    },
+    {
+      "id": "saratov_gov",
+      "name": "Правительство Саратовской области",
+      "url": "https://saratov.gov.ru",
+      "city": "Саратов",
+      "rss": "https://saratov.gov.ru/rss/",
+      "enabled": true,
+      "priority": 1,
+      "timeout": 30
+    },
+    {
+      "id": "saratov_kp",
+      "name": "Комсомольская правда Саратов",
+      "url": "https://www.saratov.kp.ru",
+      "city": "Саратов",
+      "rss": "https://www.saratov.kp.ru/rss/",
+      "enabled": true,
+      "priority": 2,
+      "timeout": 30
+    },
+    {
+      "id": "saratov_mk",
+      "name": "Московский комсомолец Саратов",
+      "url": "https://saratov.mk.ru",
+      "city": "Саратов",
+      "rss": "https://saratov.mk.ru/rss/",
+      "enabled": true,
+      "priority": 2,
+      "timeout": 30
+    },
+    {
+      "id": "saratov_aif",
+      "name": "АиФ Саратов",
+      "url": "https://www.saratov.aif.ru",
+      "city": "Саратов",
+      "rss": "https://www.saratov.aif.ru/rss/",
+      "enabled": true,
+      "priority": 2,
+      "timeout": 30
+    },
+    {
+      "id": "regnum_saratov",
+      "name": "REGNUM Саратов",
+      "url": "https://regnum.ru/news/povolzhye",
+      "city": "Саратов",
+      "rss": "https://regnum.ru/rss/povolzhye",
+      "enabled": true,
+      "priority": 2,
+      "timeout": 30
+    }
+  ]
+}
